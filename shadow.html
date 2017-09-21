@@ -1,0 +1,41 @@
+<html>
+  <head>
+  <style>
+    #pengin {
+      float: left;
+    }
+    #panda {
+      float: right;
+    }
+    #koala {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+  <script>
+    function penguinIn() {
+      document.getElementById('penguin').style.boxShadow = "0px 18px 15px #d3d3d3";
+  }
+    function penguinOut() {
+      document.getElementById('penguin').style.boxShadow = "0px 0px 0px #d3d3d3";
+  }
+    function pandaIn() {
+      document.getElementById('panda').style.boxShadow = "0px 15px 12px #d3d3d3";
+  }
+    function pandaOut() {
+      document.getElementById('panda').style.boxShadow = "0px 0px 0px #d3d3d3";
+  }
+    function koalaIn() {
+      document.getElementById('koala').style.boxShadow = "0px 15px 12px #d3d3d3";
+  }
+    function koalaOut() {
+      document.getElementById('koala').style.boxShadow = "0px 0px 0px #d3d3d3";
+  }
+  </script>
+  </head>
+  <body>
+    <img src="http://www.awesomelycute.com/gallery/2015/05/cute-baby-penguin-8.jpg" id="penguin" onmouseOver="penguinIn()" width="30%" onmouseout="penguinOut()">
+    <img src="http://images6.fanpop.com/image/photos/35200000/Cute-Pandas-pandas-35203692-500-319.jpg" id="panda" onmouseOver="pandaIn()" width="30%" onmouseout="pandaOut()">
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-04/enhanced/webdr06/14/12/enhanced-buzz-22104-1397491733-4.jpg?downsize=715:*&output-format=auto&output-quality=auto" id="koala" onmouseOver="koalaIn()" width="30%" onmouseout="koalaOut()">
+  </body>
+</html>
