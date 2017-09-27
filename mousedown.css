@@ -1,0 +1,12 @@
+#daAnsa {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  visibility: hidden;
+}
+#moveBoi {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float: right;
+}
